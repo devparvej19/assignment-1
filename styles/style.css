@@ -163,7 +163,11 @@ footer .info p {
 footer .info .info-icons {
     margin-top: 16px;
     display: flex;
+    
+}
+footer .info .info-icons img {
     margin-right: 17px;
+
 }
 
 .footer-right h4 {
@@ -179,8 +183,14 @@ footer .info .info-icons {
     margin-bottom: 16px;
     font-size: 18px;
     line-height: 21px;
-    color: #F3F3F3;
+    background: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
     border: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+.footer-right input[type="email"]::placeholder {
+    color: #F3F3F3;
 }
 
 .footer-right .btn-primary {
